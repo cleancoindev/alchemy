@@ -10,7 +10,7 @@ const gpInfo = require("./schemes/GenesisProtocol.json");
 const ensRegistrarInfo = require("./schemes/EnsRegistrar.json");
 const ensRegistryInfo = require("./schemes/ENSRegistry.json");
 const ensPublicResolverInfo = require("./schemes/ENSPublicResolver.json");
-const registryLookupInfo = require("./schemes/RegistryLookup.json");
+const registryLookupInfo = require("./schemes/RegistryLookup.json");  
 const co2kenInfo = require("./schemes/co2ken.json");
 
 // hack to make it work
@@ -19,6 +19,7 @@ co2kenInfo.addresses = {...dutchXInfo.addresses}
 const KNOWNSCHEMES = [
   //comment out as part of the hack
   // dutchXInfo,
+  co2kenInfo,
   bountiesInfo,
   ensRegistrarInfo,
   ensRegistryInfo,
