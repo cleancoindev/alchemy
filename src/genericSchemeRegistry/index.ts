@@ -11,9 +11,14 @@ const ensRegistrarInfo = require("./schemes/EnsRegistrar.json");
 const ensRegistryInfo = require("./schemes/ENSRegistry.json");
 const ensPublicResolverInfo = require("./schemes/ENSPublicResolver.json");
 const registryLookupInfo = require("./schemes/RegistryLookup.json");
+const co2kenInfo = require("./schemes/co2ken.json");
+
+// hack to make it work
+co2kenInfo.addresses = {...dutchXInfo.addresses}
 
 const KNOWNSCHEMES = [
-  dutchXInfo,
+  //comment out as part of the hack
+  // dutchXInfo,
   bountiesInfo,
   ensRegistrarInfo,
   ensRegistryInfo,
