@@ -1,4 +1,4 @@
-FROM node:10.13.0
+FROM node:10
 
 RUN apt install git
 RUN git clone https://github.com/daostack/alchemy-server.git
