@@ -89,7 +89,7 @@
     "bn.js": "^4.11.8",
     "classnames": "^2.2.5",
     "clone-deep": "^4.0.1",
-    "css-loader": "^1.0.1",
+    "css-loader": "^4.0.0",
     "disqus-react": "^1.0.5",
     "dotenv": "^8.0.0",
     "eth-ens-namehash": "^2.0.8",
@@ -141,7 +141,7 @@
     "utility-types": "^3.7.0",
     "web3": "1.2.4",
     "web3connect": "^1.0.0-beta.29",
-    "webpack": "^4.36.1",
+    "webpack": "^5.0.0",
     "ws": "^7.1.0"
   },
   "devDependencies": {
